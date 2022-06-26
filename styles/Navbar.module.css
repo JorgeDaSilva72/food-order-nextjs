@@ -10,7 +10,7 @@
   z-index: 999;
 }
 
- .item {
+.item {
   flex: 1;
   display: flex;
   align-items: center;
@@ -18,12 +18,10 @@
 
 .item:nth-child(2) {
   flex: 3;
- 
 }
 
 .item:last-child {
   justify-content: flex-end;
-  
 }
 
 .callButton {
@@ -90,4 +88,4 @@
   .item:nth-child(1) {
     flex: 3;
   }
-} 
+}
